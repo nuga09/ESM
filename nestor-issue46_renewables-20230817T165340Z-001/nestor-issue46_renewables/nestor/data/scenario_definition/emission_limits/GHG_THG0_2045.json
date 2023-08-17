@@ -1,0 +1,12 @@
+{
+    "description": "THG goals for climate neutrality in 2045, according to Klimaschutzgegesetz of 2021",
+    "yearly_targets": {
+        "2020": 809800,
+        "2025": 636000,
+        "2030": 438000,
+        "2035": 287500,
+        "2040": 150000,
+        "2045": 0,
+        "2050": 0
+    }
+}

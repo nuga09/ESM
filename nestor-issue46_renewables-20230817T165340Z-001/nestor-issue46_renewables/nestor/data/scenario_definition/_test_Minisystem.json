@@ -1,0 +1,83 @@
+{
+    "Run": "Mini-System",
+    "datalocation": "local",
+    "databasename": "Energysystemdaten_Minisystem_V2_SpeicherFix.xlsx",
+    "inputprofiledataname": "dummy.csv",
+    "outputprofiledataname": "dummy.csv",
+    "historicaldataname": "Historical_data_enerG_minisystem.xlsx",
+    "forceddecommissioningdataname": "ForcedDecomissioning_minisystem.xlsx",
+    "heatloaddataname": "Heat_Load_profile_GER_2013.csv",
+    "evaluationfilename": "evaluation_file_V34_FINE.xlsx",
+    "optparam_json": "default",
+    "solver": "glpk",
+    "GHGgoals_json": "GHG_Minisystem",
+    "transformation_path": "backcasting",
+    "exportFlowResults": true,
+    "maxRefurbRate": 2.5,
+    "QP": false,
+    "typdays": 48,
+    "startyear": 2025,
+    "targetyear": 2045,
+    "referenceyear": 2020,
+    "interval": 5,
+    "WACC": 0.1,
+    "considerMaxYearlyExpansionLimit": false,
+    "maxYearlyExpansionGW_Onshore": 8,
+    "maxYearlyExpansionGW_Offshore": 4,
+    "maxYearlyExpansionGW_OFPV": 10,
+    "maxYearlyExpansionGW_RTPV": 10,
+    "sCurveParam": [
+        1.1,
+        0.22,
+        129.2961
+    ],
+    "UsableBEVStorageCapacity_per_km": 3.04136253,
+    "string_identifiers": {
+        "controlunit": "-control",
+        "TSource": "-TSource-",
+        "TSink": "-TSink-",
+        "geothermalHeatPumps": "GeothermHeatPump",
+        "CO2Sinks": "-Snk-NonCO2Emission",
+        "onshore": "P-Trans-WindOnshore",
+        "offshore": "P-Trans-WindOffshore",
+        "rooftop_pv": "P-Trans-SolarPVRT",
+        "openfield_pv": "P-Trans-SolarPVOF",
+        "AEDemand": "AEDem-el",
+        "LightingN-AEDemand": "S-Dem-LightingNAEDem-el",
+        "IndustryDemand": "I-Dem-",
+        "BatteryElectricCar": "T-Trans-PCarBEV",
+        "BatteryElectricCar_Storage": "P-Stor-BEVintStorage-el",
+        "Sanierungspaket1": "SP1",
+        "building_exclusion_list": [
+            "_stock",
+            "4",
+            "-K55",
+            "NWGWG-N",
+            "NWG1-N",
+            "NWG2-N",
+            "NWG3-N",
+            "-HCFINE-HeatingHub",
+            "_newHub",
+            "-control",
+            "-TSource-",
+            "-Hub-",
+            "-Dem-",
+            "-TSink-"
+        ],
+        "building_standards": [
+            "-K",
+            "-NE",
+            "SP"
+        ],
+        "building_filter_for_helper_components": "-HCFINE-",
+        "refurbishmentpackages": [
+            "-SP1",
+            "-SP2"
+        ],
+        "building_categories": [
+            "EZFH",
+            "MFH",
+            "NWG"
+        ]
+    }
+}

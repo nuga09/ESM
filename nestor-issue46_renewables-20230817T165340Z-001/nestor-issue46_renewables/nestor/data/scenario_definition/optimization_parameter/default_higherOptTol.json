@@ -1,0 +1,20 @@
+{
+    "description": "ONLY FOR ES2045",
+    "Threads": 8,
+    "Big_M": 200,
+    "Numeric_Focus": 0,
+    "Crossover": 0,
+    "NodeMethod": 2,
+    "Method": 2,
+    "getDual": true,
+    "BarHomogeneous": 1,
+    "Opt_Tolerance": 7,
+    "tee": false,
+    "Backcasting": true,
+    "Max_Expansion": 0.25,
+    "Max_Decomm": 0.5,
+    "Start_Diffusion": 0.010,
+    "Max_Dev_Factor": 1.10,
+    "Max_Add_Dev": 0.0,
+    "First_Year_Cor": 0.0
+}
